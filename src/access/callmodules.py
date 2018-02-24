@@ -10,19 +10,19 @@ r=open('messageinput','r')
 li=r.readlines()
 for l in li:
     id=l.split(" ",-1)    
-print(id)
+# print(id)
     
 with open('levelone', 'rU') as in_file:
     data = in_file.read().split('\n')
-print(data)
+# print(data)
 data1=dict()
 z=-1
 k=0
 key=''
 for i in id:
-#     print(i)
+    print(i)
     for j in data:
-#         print(j)
+        print(j)
         
         k=k+1
         if i==j:
